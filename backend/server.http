@@ -1,0 +1,35 @@
+
+### LOGIN USER
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+  "email":"malepatignanadeep@gmail.com",
+  "password":"Shiva@2005"
+}
+
+### REGISTER USER
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+  "fullname":"abcdefghi",
+  "email":"abcdefghi@gmail.com",
+  "mobile":"9876543210",
+  "password":"Xyx@123"
+}
+####
+POST http://localhost:5000/api/products/
+Content-Type: application/json
+
+{
+  "name": "Cauliflower",
+  "pricePerUnit": 20
+}
+
+###
+GET http://localhost:5000/api/products/
+
+###
+
+DELETE http://localhost:5000/api/products/6800f9271839cfcfd2845e9a/

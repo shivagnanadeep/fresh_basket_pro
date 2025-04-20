@@ -1,0 +1,1202 @@
+[
+  {
+    "name": "Tomato",
+    "pricePerUnit": 25,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Potato",
+    "pricePerUnit": 20,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Onion",
+    "pricePerUnit": 30,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Carrot",
+    "pricePerUnit": 35,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Cabbage",
+    "pricePerUnit": 40,
+    "category": "vegetable",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Cauliflower",
+    "pricePerUnit": 45,
+    "category": "vegetable",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Brinjal (Eggplant)",
+    "pricePerUnit": 30,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Lady Finger (Okra)",
+    "pricePerUnit": 35,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Spinach",
+    "pricePerUnit": 20,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Coriander Leaves",
+    "pricePerUnit": 15,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Tomato Var10",
+    "pricePerUnit": 25,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Potato Var11",
+    "pricePerUnit": 21,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Onion Var12",
+    "pricePerUnit": 32,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Carrot Var13",
+    "pricePerUnit": 38,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Cabbage Var14",
+    "pricePerUnit": 44,
+    "category": "vegetable",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Cauliflower Var15",
+    "pricePerUnit": 45,
+    "category": "vegetable",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Brinjal (Eggplant) Var16",
+    "pricePerUnit": 31,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Lady Finger (Okra) Var17",
+    "pricePerUnit": 37,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Spinach Var18",
+    "pricePerUnit": 23,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Coriander Leaves Var19",
+    "pricePerUnit": 19,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Tomato Var20",
+    "pricePerUnit": 25,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Potato Var21",
+    "pricePerUnit": 21,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Onion Var22",
+    "pricePerUnit": 32,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Carrot Var23",
+    "pricePerUnit": 38,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Cabbage Var24",
+    "pricePerUnit": 44,
+    "category": "vegetable",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Cauliflower Var25",
+    "pricePerUnit": 45,
+    "category": "vegetable",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Brinjal (Eggplant) Var26",
+    "pricePerUnit": 31,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Lady Finger (Okra) Var27",
+    "pricePerUnit": 37,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Spinach Var28",
+    "pricePerUnit": 23,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Coriander Leaves Var29",
+    "pricePerUnit": 19,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Tomato Var30",
+    "pricePerUnit": 25,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Potato Var31",
+    "pricePerUnit": 21,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Onion Var32",
+    "pricePerUnit": 32,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Carrot Var33",
+    "pricePerUnit": 38,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Cabbage Var34",
+    "pricePerUnit": 44,
+    "category": "vegetable",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Cauliflower Var35",
+    "pricePerUnit": 45,
+    "category": "vegetable",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Brinjal (Eggplant) Var36",
+    "pricePerUnit": 31,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Lady Finger (Okra) Var37",
+    "pricePerUnit": 37,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Spinach Var38",
+    "pricePerUnit": 23,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Coriander Leaves Var39",
+    "pricePerUnit": 19,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Tomato Var40",
+    "pricePerUnit": 25,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Potato Var41",
+    "pricePerUnit": 21,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Onion Var42",
+    "pricePerUnit": 32,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Carrot Var43",
+    "pricePerUnit": 38,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Cabbage Var44",
+    "pricePerUnit": 44,
+    "category": "vegetable",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Cauliflower Var45",
+    "pricePerUnit": 45,
+    "category": "vegetable",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Brinjal (Eggplant) Var46",
+    "pricePerUnit": 31,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Lady Finger (Okra) Var47",
+    "pricePerUnit": 37,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Spinach Var48",
+    "pricePerUnit": 23,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Coriander Leaves Var49",
+    "pricePerUnit": 19,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Tomato Var50",
+    "pricePerUnit": 25,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Potato Var51",
+    "pricePerUnit": 21,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Onion Var52",
+    "pricePerUnit": 32,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Carrot Var53",
+    "pricePerUnit": 38,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Cabbage Var54",
+    "pricePerUnit": 44,
+    "category": "vegetable",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Cauliflower Var55",
+    "pricePerUnit": 45,
+    "category": "vegetable",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Brinjal (Eggplant) Var56",
+    "pricePerUnit": 31,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Lady Finger (Okra) Var57",
+    "pricePerUnit": 37,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Spinach Var58",
+    "pricePerUnit": 23,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Coriander Leaves Var59",
+    "pricePerUnit": 19,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Tomato Var60",
+    "pricePerUnit": 25,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Potato Var61",
+    "pricePerUnit": 21,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Onion Var62",
+    "pricePerUnit": 32,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Carrot Var63",
+    "pricePerUnit": 38,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Cabbage Var64",
+    "pricePerUnit": 44,
+    "category": "vegetable",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Cauliflower Var65",
+    "pricePerUnit": 45,
+    "category": "vegetable",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Brinjal (Eggplant) Var66",
+    "pricePerUnit": 31,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Lady Finger (Okra) Var67",
+    "pricePerUnit": 37,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Spinach Var68",
+    "pricePerUnit": 23,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Coriander Leaves Var69",
+    "pricePerUnit": 19,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Tomato Var70",
+    "pricePerUnit": 25,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Potato Var71",
+    "pricePerUnit": 21,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Onion Var72",
+    "pricePerUnit": 32,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Carrot Var73",
+    "pricePerUnit": 38,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Cabbage Var74",
+    "pricePerUnit": 44,
+    "category": "vegetable",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Cauliflower Var75",
+    "pricePerUnit": 45,
+    "category": "vegetable",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Brinjal (Eggplant) Var76",
+    "pricePerUnit": 31,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Lady Finger (Okra) Var77",
+    "pricePerUnit": 37,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Spinach Var78",
+    "pricePerUnit": 23,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Coriander Leaves Var79",
+    "pricePerUnit": 19,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Tomato Var80",
+    "pricePerUnit": 25,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Potato Var81",
+    "pricePerUnit": 21,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Onion Var82",
+    "pricePerUnit": 32,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Carrot Var83",
+    "pricePerUnit": 38,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Cabbage Var84",
+    "pricePerUnit": 44,
+    "category": "vegetable",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Cauliflower Var85",
+    "pricePerUnit": 45,
+    "category": "vegetable",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Brinjal (Eggplant) Var86",
+    "pricePerUnit": 31,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Lady Finger (Okra) Var87",
+    "pricePerUnit": 37,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Spinach Var88",
+    "pricePerUnit": 23,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Coriander Leaves Var89",
+    "pricePerUnit": 19,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Tomato Var90",
+    "pricePerUnit": 25,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Potato Var91",
+    "pricePerUnit": 21,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Onion Var92",
+    "pricePerUnit": 32,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Carrot Var93",
+    "pricePerUnit": 38,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Cabbage Var94",
+    "pricePerUnit": 44,
+    "category": "vegetable",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Cauliflower Var95",
+    "pricePerUnit": 45,
+    "category": "vegetable",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Brinjal (Eggplant) Var96",
+    "pricePerUnit": 31,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Lady Finger (Okra) Var97",
+    "pricePerUnit": 37,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Spinach Var98",
+    "pricePerUnit": 23,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Coriander Leaves Var99",
+    "pricePerUnit": 19,
+    "category": "vegetable",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Apple",
+    "pricePerUnit": 150,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Banana",
+    "pricePerUnit": 40,
+    "category": "fruit",
+    "unitQuantity": "DOZEN"
+  },
+  {
+    "name": "Mango",
+    "pricePerUnit": 100,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Orange",
+    "pricePerUnit": 80,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Papaya",
+    "pricePerUnit": 50,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Pineapple",
+    "pricePerUnit": 60,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Grapes",
+    "pricePerUnit": 90,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Guava",
+    "pricePerUnit": 45,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Watermelon",
+    "pricePerUnit": 25,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Lychee",
+    "pricePerUnit": 120,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Apple Var10",
+    "pricePerUnit": 150,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Banana Var11",
+    "pricePerUnit": 41,
+    "category": "fruit",
+    "unitQuantity": "DOZEN"
+  },
+  {
+    "name": "Mango Var12",
+    "pricePerUnit": 102,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Orange Var13",
+    "pricePerUnit": 83,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Papaya Var14",
+    "pricePerUnit": 54,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Pineapple Var15",
+    "pricePerUnit": 60,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Grapes Var16",
+    "pricePerUnit": 91,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Guava Var17",
+    "pricePerUnit": 47,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Watermelon Var18",
+    "pricePerUnit": 28,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Lychee Var19",
+    "pricePerUnit": 124,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Apple Var20",
+    "pricePerUnit": 150,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Banana Var21",
+    "pricePerUnit": 41,
+    "category": "fruit",
+    "unitQuantity": "DOZEN"
+  },
+  {
+    "name": "Mango Var22",
+    "pricePerUnit": 102,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Orange Var23",
+    "pricePerUnit": 83,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Papaya Var24",
+    "pricePerUnit": 54,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Pineapple Var25",
+    "pricePerUnit": 60,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Grapes Var26",
+    "pricePerUnit": 91,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Guava Var27",
+    "pricePerUnit": 47,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Watermelon Var28",
+    "pricePerUnit": 28,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Lychee Var29",
+    "pricePerUnit": 124,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Apple Var30",
+    "pricePerUnit": 150,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Banana Var31",
+    "pricePerUnit": 41,
+    "category": "fruit",
+    "unitQuantity": "DOZEN"
+  },
+  {
+    "name": "Mango Var32",
+    "pricePerUnit": 102,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Orange Var33",
+    "pricePerUnit": 83,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Papaya Var34",
+    "pricePerUnit": 54,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Pineapple Var35",
+    "pricePerUnit": 60,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Grapes Var36",
+    "pricePerUnit": 91,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Guava Var37",
+    "pricePerUnit": 47,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Watermelon Var38",
+    "pricePerUnit": 28,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Lychee Var39",
+    "pricePerUnit": 124,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Apple Var40",
+    "pricePerUnit": 150,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Banana Var41",
+    "pricePerUnit": 41,
+    "category": "fruit",
+    "unitQuantity": "DOZEN"
+  },
+  {
+    "name": "Mango Var42",
+    "pricePerUnit": 102,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Orange Var43",
+    "pricePerUnit": 83,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Papaya Var44",
+    "pricePerUnit": 54,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Pineapple Var45",
+    "pricePerUnit": 60,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Grapes Var46",
+    "pricePerUnit": 91,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Guava Var47",
+    "pricePerUnit": 47,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Watermelon Var48",
+    "pricePerUnit": 28,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Lychee Var49",
+    "pricePerUnit": 124,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Apple Var50",
+    "pricePerUnit": 150,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Banana Var51",
+    "pricePerUnit": 41,
+    "category": "fruit",
+    "unitQuantity": "DOZEN"
+  },
+  {
+    "name": "Mango Var52",
+    "pricePerUnit": 102,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Orange Var53",
+    "pricePerUnit": 83,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Papaya Var54",
+    "pricePerUnit": 54,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Pineapple Var55",
+    "pricePerUnit": 60,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Grapes Var56",
+    "pricePerUnit": 91,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Guava Var57",
+    "pricePerUnit": 47,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Watermelon Var58",
+    "pricePerUnit": 28,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Lychee Var59",
+    "pricePerUnit": 124,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Apple Var60",
+    "pricePerUnit": 150,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Banana Var61",
+    "pricePerUnit": 41,
+    "category": "fruit",
+    "unitQuantity": "DOZEN"
+  },
+  {
+    "name": "Mango Var62",
+    "pricePerUnit": 102,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Orange Var63",
+    "pricePerUnit": 83,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Papaya Var64",
+    "pricePerUnit": 54,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Pineapple Var65",
+    "pricePerUnit": 60,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Grapes Var66",
+    "pricePerUnit": 91,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Guava Var67",
+    "pricePerUnit": 47,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Watermelon Var68",
+    "pricePerUnit": 28,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Lychee Var69",
+    "pricePerUnit": 124,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Apple Var70",
+    "pricePerUnit": 150,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Banana Var71",
+    "pricePerUnit": 41,
+    "category": "fruit",
+    "unitQuantity": "DOZEN"
+  },
+  {
+    "name": "Mango Var72",
+    "pricePerUnit": 102,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Orange Var73",
+    "pricePerUnit": 83,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Papaya Var74",
+    "pricePerUnit": 54,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Pineapple Var75",
+    "pricePerUnit": 60,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Grapes Var76",
+    "pricePerUnit": 91,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Guava Var77",
+    "pricePerUnit": 47,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Watermelon Var78",
+    "pricePerUnit": 28,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Lychee Var79",
+    "pricePerUnit": 124,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Apple Var80",
+    "pricePerUnit": 150,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Banana Var81",
+    "pricePerUnit": 41,
+    "category": "fruit",
+    "unitQuantity": "DOZEN"
+  },
+  {
+    "name": "Mango Var82",
+    "pricePerUnit": 102,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Orange Var83",
+    "pricePerUnit": 83,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Papaya Var84",
+    "pricePerUnit": 54,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Pineapple Var85",
+    "pricePerUnit": 60,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Grapes Var86",
+    "pricePerUnit": 91,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Guava Var87",
+    "pricePerUnit": 47,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Watermelon Var88",
+    "pricePerUnit": 28,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Lychee Var89",
+    "pricePerUnit": 124,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Apple Var90",
+    "pricePerUnit": 150,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Banana Var91",
+    "pricePerUnit": 41,
+    "category": "fruit",
+    "unitQuantity": "DOZEN"
+  },
+  {
+    "name": "Mango Var92",
+    "pricePerUnit": 102,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Orange Var93",
+    "pricePerUnit": 83,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Papaya Var94",
+    "pricePerUnit": 54,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Pineapple Var95",
+    "pricePerUnit": 60,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Grapes Var96",
+    "pricePerUnit": 91,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Guava Var97",
+    "pricePerUnit": 47,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  },
+  {
+    "name": "Watermelon Var98",
+    "pricePerUnit": 28,
+    "category": "fruit",
+    "unitQuantity": "PIECE"
+  },
+  {
+    "name": "Lychee Var99",
+    "pricePerUnit": 124,
+    "category": "fruit",
+    "unitQuantity": "KG"
+  }
+]
