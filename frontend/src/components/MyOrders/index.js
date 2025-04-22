@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Cookies from 'js-cookie';
 import { ThreeDots } from 'react-loader-spinner';
+require('dotenv').config();
+const API = process.env.API;
 
 class MyOrders extends Component {
 	state = {
@@ -17,16 +19,13 @@ class MyOrders extends Component {
 	fetchOrders = async () => {
 		this.setState({ loading: true, error: null });
 		try {
-			const res = await fetch(
-				'http://localhost:5000/api/orders/getAllOrders/',
-				{
-					method: 'POST',
-					headers: {
-						'Content-Type': 'application/json',
-						Authorization: `Bearer ${Cookies.get('jwt_token')}`,
-					},
-				}
-			);
+			const res = await fetch(`${API}/api/orders/getAllOrders/`, {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+					Authorization: `Bearer ${Cookies.get('jwt_token')}`,
+				},
+			});
 			const data = await res.json();
 			if (res.ok) {
 				// Initialize order details structure
@@ -64,7 +63,7 @@ class MyOrders extends Component {
 			this.setState({ orders: updatedOrders, selectedOrderIndex: index });
 
 			try {
-				const res = await fetch(`http://localhost:5000/api/orders/${orderId}`, {
+				const res = await fetch(`${API}/api/orders/${orderId}`, {
 					headers: {
 						Authorization: `Bearer ${Cookies.get('jwt_token')}`,
 					},

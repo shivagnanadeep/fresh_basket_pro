@@ -1,5 +1,7 @@
 import { Component } from 'react';
 import { Link } from 'react-router-dom';
+require('dotenv').config();
+const API = process.env.API;
 
 class RegisterPage extends Component {
 	state = {
@@ -31,7 +33,7 @@ class RegisterPage extends Component {
 				errorMsg: 'Passwords do not match.',
 			});
 		} else {
-			const response = await fetch('http://localhost:5000/register', {
+			const response = await fetch(`${API}/register`, {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify({ fullname, email, mobile, password }),

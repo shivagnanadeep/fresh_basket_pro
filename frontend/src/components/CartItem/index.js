@@ -4,6 +4,8 @@ import CartContext from '../../context/CartContext';
 import Cookies from 'js-cookie';
 import Popup from 'reactjs-popup';
 import { ThreeDots } from 'react-loader-spinner';
+require('dotenv').config();
+const API = process.env.API;
 
 const API_STATUS_CONSTANTS = {
 	initial: 'INITIAL',
@@ -21,7 +23,7 @@ class CartItem extends Component {
 		const { cartItem } = this.props;
 		const { product } = cartItem;
 		const { _id } = product;
-		const URL = `http://localhost:5000/api/products/deleteCartItem/${_id}`;
+		const URL = `${API}/api/products/deleteCartItem/${_id}`;
 		const options = {
 			method: 'DELETE',
 			headers: {

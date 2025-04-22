@@ -1,6 +1,6 @@
 
 ### LOGIN USER
-POST http://localhost:5000/login
+POST https://fresh-basket-pro-agrofix.onrender.com/login
 Content-Type: application/json
 
 {
@@ -19,7 +19,7 @@ Content-Type: application/json
   "password":"Xyx@123"
 }
 ####
-POST http://localhost:5000/api/products/
+POST https://fresh-basket-pro-agrofix.onrender.com/api/products/
 Content-Type: application/json
 
 {
@@ -28,7 +28,8 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:5000/api/products/
+GET https://fresh-basket-pro-agrofix.onrender.com/api/products/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2ODAyYjM3YmJkZjJiODIyMzAxYmJhZDYiLCJ1c2VyIjp7Il9pZCI6IjY4MDJiMzdiYmRmMmI4MjIzMDFiYmFkNiIsImZ1bGxuYW1lIjoiU2hpdmEiLCJlbWFpbCI6Im1hbGVwYXRpZ25hbmFkZWVwQGdtYWlsLmNvbSIsIm1vYmlsZSI6Ijk4NjY4OTA2ODIiLCJwYXNzd29yZCI6IiQyYiQxMCQvTDloUmlqcmdSdGdaL1laQUIuNW8uRGlCMUtmTWJXQzdhcE1ZQS9reDUzRlJOcWVhOHJ4aSIsIm9yZGVycyI6W3siX2lkIjoiNjgwNGIxNGNjNTk1MDhiNzdiODk5ZWM2In0seyJfaWQiOiI2ODA1MTBlODE3ZDBhZDgxNmIwYzQ0NjcifSx7Il9pZCI6IjY4MDUxMGU5MTdkMGFkODE2YjBjNDQ2ZCJ9LHsiX2lkIjoiNjgwNTExZWExN2QwYWQ4MTZiMGM0NDk0In0seyJfaWQiOiI2ODA1MTI3ZDE3ZDBhZDgxNmIwYzQ0YmQifSx7Il9pZCI6IjY4MDUxMmY0MTdkMGFkODE2YjBjNDRlZSJ9LHsiX2lkIjoiNjgwNTEzMGQxN2QwYWQ4MTZiMGM0NGZhIn0seyJfaWQiOiI2ODA1MTM1ZDE3ZDBhZDgxNmIwYzQ1MTIifSx7Il9pZCI6IjY4MDUxMzg0MTdkMGFkODE2YjBjNDUyYyJ9LHsiX2lkIjoiNjgwNTE1MGMxN2QwYWQ4MTZiMGM0NTQ3In0seyJfaWQiOiI2ODA1ZDdmYzQwY2QyNjQzNDM3MGM3YWUifV0sImNhcnQiOltdLCJfX3YiOjk0fSwiaWF0IjoxNzQ1MzA1ODk0LCJleHAiOjE3NDY2ODgyOTR9.h80eDIRgBhGong8G_ZHZNwfksOlnct0bOC-2n110dIU
 
 ###
 

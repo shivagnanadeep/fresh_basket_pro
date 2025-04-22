@@ -4,6 +4,8 @@ import { FiSearch } from 'react-icons/fi';
 import Filters from '../Filters';
 import EachProduct from '../EachProduct';
 import Cookies from 'js-cookie';
+require('dotenv').config();
+const API = process.env.API;
 
 class AllProductsPage extends Component {
 	state = {
@@ -49,7 +51,7 @@ class AllProductsPage extends Component {
 	}
 
 	getProducts = async () => {
-		const URL = 'http://localhost:5000/api/products/';
+		const URL = `${API}/api/products/`;
 		const options = {
 			method: 'GET',
 			headers: {

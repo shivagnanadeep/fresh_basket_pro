@@ -4,6 +4,8 @@ import { FaArrowRight } from 'react-icons/fa';
 import { Component } from 'react';
 import CartContext from '../../context/CartContext';
 import Cookies from 'js-cookie';
+require('dotenv').config();
+const API = process.env.API;
 
 class EachProduct extends Component {
 	constructor(props) {
@@ -37,7 +39,7 @@ class EachProduct extends Component {
 			const { _id } = product;
 			const { quantity } = this.state;
 			const productId = _id;
-			const URL = 'http://localhost:5000/api/products/addToCart';
+			const URL = `${API}/api/products/addToCart`;
 			const options = {
 				method: 'POST',
 				headers: {

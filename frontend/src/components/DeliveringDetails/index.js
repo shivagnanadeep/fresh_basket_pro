@@ -1,6 +1,8 @@
 import { Component } from 'react';
 import ProceedToBuy from '../ProceedToBuy';
 import Cookies from 'js-cookie';
+require('dotenv').config();
+const API = process.env.API;
 
 class DeliveringDetails extends Component {
 	constructor(props) {
@@ -103,7 +105,7 @@ class DeliveringDetails extends Component {
 			};
 			// console.log(order);
 
-			const URL = 'http://localhost:5000/api/orders';
+			const URL = `${API}/api/orders`;
 			const options = {
 				method: 'POST',
 				headers: {

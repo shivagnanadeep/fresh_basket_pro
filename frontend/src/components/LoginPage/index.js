@@ -1,6 +1,8 @@
 import { Component } from 'react';
 import { Link, Redirect } from 'react-router-dom';
 import Cookies from 'js-cookie';
+require('dotenv').config();
+const API = process.env.API;
 
 class LoginPage extends Component {
 	state = {
@@ -17,7 +19,7 @@ class LoginPage extends Component {
 	handleSubmit = async (e) => {
 		e.preventDefault();
 		const { email, password } = this.state;
-		const response = await fetch('http://localhost:5000/login', {
+		const response = await fetch(`${API}/login`, {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({ email, password }),
