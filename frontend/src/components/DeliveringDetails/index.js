@@ -1,8 +1,7 @@
 import { Component } from 'react';
 import ProceedToBuy from '../ProceedToBuy';
 import Cookies from 'js-cookie';
-require('dotenv').config();
-const API = process.env.API;
+const API = 'https://fresh-basket-pro-agrofix.onrender.com';
 
 class DeliveringDetails extends Component {
 	constructor(props) {

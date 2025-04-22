@@ -1,7 +1,6 @@
 import { Component } from 'react';
 import { Link } from 'react-router-dom';
-require('dotenv').config();
-const API = process.env.API;
+const API = 'https://fresh-basket-pro-agrofix.onrender.com';
 
 class RegisterPage extends Component {
 	state = {

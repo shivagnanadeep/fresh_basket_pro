@@ -4,8 +4,7 @@ import CartContext from '../../context/CartContext';
 import Cookies from 'js-cookie';
 import Popup from 'reactjs-popup';
 import { ThreeDots } from 'react-loader-spinner';
-require('dotenv').config();
-const API = process.env.API;
+const API = 'https://fresh-basket-pro-agrofix.onrender.com';
 
 const API_STATUS_CONSTANTS = {
 	initial: 'INITIAL',

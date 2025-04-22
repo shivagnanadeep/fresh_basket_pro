@@ -4,8 +4,7 @@ import { FaArrowRight } from 'react-icons/fa';
 import { Component } from 'react';
 import CartContext from '../../context/CartContext';
 import Cookies from 'js-cookie';
-require('dotenv').config();
-const API = process.env.API;
+const API = 'https://fresh-basket-pro-agrofix.onrender.com';
 
 class EachProduct extends Component {
 	constructor(props) {

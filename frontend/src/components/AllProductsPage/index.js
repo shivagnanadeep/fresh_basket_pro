@@ -4,8 +4,7 @@ import { FiSearch } from 'react-icons/fi';
 import Filters from '../Filters';
 import EachProduct from '../EachProduct';
 import Cookies from 'js-cookie';
-require('dotenv').config();
-const API = process.env.API;
+const API = 'https://fresh-basket-pro-agrofix.onrender.com';
 
 class AllProductsPage extends Component {
 	state = {

@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import Cookies from 'js-cookie';
 import { ThreeDots } from 'react-loader-spinner';
-require('dotenv').config();
-const API = process.env.API;
+const API = 'https://fresh-basket-pro-agrofix.onrender.com';
 
 class MyOrders extends Component {
 	state = {

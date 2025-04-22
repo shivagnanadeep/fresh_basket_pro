@@ -1,8 +1,7 @@
 import { Component } from 'react';
 import { Link, Redirect } from 'react-router-dom';
 import Cookies from 'js-cookie';
-require('dotenv').config();
-const API = process.env.API;
+const API = 'https://fresh-basket-pro-agrofix.onrender.com';
 
 class LoginPage extends Component {
 	state = {
