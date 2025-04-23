@@ -14,41 +14,7 @@ import OrdersPage from './components/OrdersPage';
 
 class App extends Component {
 	state = {
-		cartList: [
-			// {
-			// 	_id: '68023388c38ef42b778bf202',
-			// 	id: 1,
-			// 	name: 'Tomato',
-			// 	pricePerUnit: 25,
-			// 	category: 'vegetable',
-			// 	unitQuantity: 'KG',
-			// 	imageUrl:
-			// 		'https://images.pexels.com/photos/1327838/pexels-photo-1327838.jpeg',
-			// 	minQuantity: 10,
-			// },
-			// {
-			// 	_id: '68023388c38ef42b778bf203',
-			// 	id: 2,
-			// 	name: 'Potato',
-			// 	pricePerUnit: 20,
-			// 	category: 'vegetable',
-			// 	unitQuantity: 'KG',
-			// 	imageUrl:
-			// 		'https://images.pexels.com/photos/144248/potatoes-vegetables-erdfrucht-144248.jpeg',
-			// 	minQuantity: 10,
-			// },
-			// {
-			// 	_id: '68023388c38ef42b778bf204',
-			// 	id: 3,
-			// 	name: 'Onion',
-			// 	pricePerUnit: 30,
-			// 	category: 'vegetable',
-			// 	unitQuantity: 'KG',
-			// 	imageUrl:
-			// 		'https://images.pexels.com/photos/4197444/pexels-photo-4197444.jpeg',
-			// 	minQuantity: 10,
-			// },
-		],
+		cartList: [],
 	};
 	setCartProducts = async () => {
 		const { cartList } = this.state;
