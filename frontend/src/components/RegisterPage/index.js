@@ -11,6 +11,7 @@ class RegisterPage extends Component {
 		confirmPassword: '',
 		errorMsg: '',
 		showSubmitError: false,
+		isSubmitting: false,
 	};
 
 	onChangeField = (field) => (event) => {
@@ -26,20 +27,29 @@ class RegisterPage extends Component {
 				showSubmitError: true,
 				errorMsg: 'All fields are required.',
 			});
+			return;
 		} else if (password !== confirmPassword) {
 			this.setState({
 				showSubmitError: true,
 				errorMsg: 'Passwords do not match.',
 			});
-		} else {
+			return;
+		}
+
+		this.setState({ isSubmitting: true });
+
+		try {
 			const response = await fetch(`${API}/register`, {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify({ fullname, email, mobile, password }),
 			});
-
 			const data = await response.json();
 			alert(data.message || data.error_msg);
+		} catch (error) {
+			alert('Something went wrong. Please try again later.');
+		} finally {
+			this.setState({ isSubmitting: false });
 		}
 	};
 
@@ -52,6 +62,7 @@ class RegisterPage extends Component {
 			confirmPassword,
 			errorMsg,
 			showSubmitError,
+			isSubmitting,
 		} = this.state;
 
 		return (
@@ -122,9 +133,33 @@ class RegisterPage extends Component {
 
 						<button
 							type="submit"
-							className="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+							className="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex justify-center items-center"
+							disabled={isSubmitting}
 						>
-							Register
+							{isSubmitting ? (
+								<svg
+									className="animate-spin h-5 w-5 text-white"
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+								>
+									<circle
+										className="opacity-25"
+										cx="12"
+										cy="12"
+										r="10"
+										stroke="currentColor"
+										strokeWidth="4"
+									></circle>
+									<path
+										className="opacity-75"
+										fill="currentColor"
+										d="M4 12a8 8 0 018-8v4l3-3-3-3v4a8 8 0 100 16v-4l-3 3 3 3v-4a8 8 0 01-8-8z"
+									></path>
+								</svg>
+							) : (
+								'Register'
+							)}
 						</button>
 
 						{showSubmitError && (

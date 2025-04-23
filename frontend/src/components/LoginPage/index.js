@@ -9,6 +9,7 @@ class LoginPage extends Component {
 		password: '',
 		showError: false,
 		errorMsg: '',
+		isSubmitting: false,
 	};
 
 	handleInputChange = (e) => {
@@ -17,14 +18,17 @@ class LoginPage extends Component {
 
 	handleSubmit = async (e) => {
 		e.preventDefault();
+		this.setState({ isSubmitting: true });
 		const { email, password } = this.state;
-		const response = await fetch(`${API}/login`, {
-			method: 'POST',
-			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify({ email, password }),
-		});
+
 		try {
+			const response = await fetch(`${API}/login`, {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ email, password }),
+			});
 			const data = await response.json();
+
 			if (response.ok) {
 				Cookies.set('jwt_token', data.jwt_token, { expires: 15 });
 				const { history } = this.props;
@@ -33,12 +37,16 @@ class LoginPage extends Component {
 				this.setState({ showError: true, errorMsg: data.error_msg });
 			}
 		} catch (e) {
-			console.log(`ERROR : ${e}`);
+			this.setState({ showError: true, errorMsg: 'Login failed. Try again.' });
+			console.error(`ERROR: ${e}`);
+		} finally {
+			this.setState({ isSubmitting: false });
 		}
 	};
 
 	render() {
-		const { email, password, showError, errorMsg } = this.state;
+		const { email, password, showError, errorMsg, isSubmitting } = this.state;
+
 		if (Cookies.get('jwt_token')) {
 			return <Redirect to="/" />;
 		}
@@ -56,7 +64,7 @@ class LoginPage extends Component {
 				>
 					<h2 className="text-xl font-semibold mb-6 text-center">Login</h2>
 
-					<label className="text-sm font-medium">Username</label>
+					<label className="text-sm font-medium">Email</label>
 					<input
 						type="text"
 						name="email"
@@ -76,13 +84,37 @@ class LoginPage extends Component {
 
 					<button
 						type="submit"
-						className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-md"
+						disabled={isSubmitting}
+						className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-md flex justify-center items-center"
 					>
-						Login
+						{isSubmitting ? (
+							<svg
+								className="animate-spin h-5 w-5 text-white"
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+							>
+								<circle
+									className="opacity-25"
+									cx="12"
+									cy="12"
+									r="10"
+									stroke="currentColor"
+									strokeWidth="4"
+								></circle>
+								<path
+									className="opacity-75"
+									fill="currentColor"
+									d="M4 12a8 8 0 018-8v4l3-3-3-3v4a8 8 0 100 16v-4l-3 3 3 3v-4a8 8 0 01-8-8z"
+								></path>
+							</svg>
+						) : (
+							'Login'
+						)}
 					</button>
 
 					{showError && (
-						<p className="text-red-500 text-sm mt-2">*{errorMsg}</p>
+						<p className="text-red-500 text-sm mt-2 text-center">*{errorMsg}</p>
 					)}
 
 					<p className="text-sm mt-4 text-center">
